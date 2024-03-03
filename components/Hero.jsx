@@ -1,6 +1,9 @@
+'use client'
 import React from 'react';
 import Image from 'next/image';
 import { Button } from './ui/button';
+import starsAnimation from '../public/stars.json'; // Make sure the path is correct
+import Lottie from 'lottie-react'; // Import Lottie
 
 const Hero = () => {
   return (
@@ -25,18 +28,24 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="col-span-1 grid-rows-2 relative ">
-        <div className="flex flex-col w-full h-full justify-center items-center overflow-visible">
+      <div className="col-span-1 grid-rows-2 relative">
+        <div className="flex flex-col w-full h-full justify-center items-center overflow-visible relative">
           <Image 
             src="/hero.svg" 
             alt="Picture" 
-            width={550} 
-            height={500}  
+            width={450} 
+            height={400}  
             className='z-30'
-            />
-          
+          />
+          <div className="absolute top-0 left-0 z-50 p-2">
+            <Lottie animationData={starsAnimation} />
+          </div>
+          <div className="absolute bottom-0 right-0 z-50 p-2">
+            <Lottie animationData={starsAnimation} /> 
+          </div>
         </div>
       </div>
+
     </div>
   );
 };
