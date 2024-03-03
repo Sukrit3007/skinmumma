@@ -41,6 +41,7 @@ const Footer = () => {
                     </div>
                </div>
             </div>
+
             <div className='col-span-1'>
                 <div className='w-full h-full flex justify-start md:justify-center mt-6 md:mt-0'>
                     <h1 className='text-background text-2xl font-semibold leading-normal'>
@@ -49,6 +50,7 @@ const Footer = () => {
                     </h1>
                 </div>
             </div>
+
             <div className='col-span-1'>
                 <div className='w-full h-full flex flex-col gap-4 item-start md:items-center text-left mt-6 md:mt-0'> 
                     <h1 className='text-background text-base font-medium leading-4 tracking-wider'>Quick Links</h1>
@@ -62,6 +64,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
+        
         <div className='border-t-2 border-background flex flex-col md:flex-row gap-6 justify-between pt-8'>
             <p className='text-left font-inter text-base font-normal leading-5 tracking-wider text-background'>
                 © Skin Mumma all Rights Reserved
