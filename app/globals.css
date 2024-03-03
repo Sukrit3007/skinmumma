@@ -76,3 +76,11 @@
   }
 }
 
+@font-face {
+  src: url('/public/fonts/otf/PPHatton-BoldItalic.otf');
+  font-family: 'Hatton';
+}
+
+h1{
+  font-family: 'Hatton';
+}

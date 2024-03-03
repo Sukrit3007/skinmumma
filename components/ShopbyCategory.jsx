@@ -69,7 +69,7 @@ const haircareProducts = [
   return (
     <div className="flex flex-col gap-10">
             <div>
-                <h1 className="text-gray-700 text-2xl font-semibold scroll-m-20 tracking-tight lg:text-5xl">
+                <h1 className="text-background  text-2xl font-semibold scroll-m-20 tracking-tight lg:text-5xl">
                     Shop by Category
                 </h1>
             </div>
