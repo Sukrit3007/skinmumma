@@ -38,7 +38,7 @@ import { Input } from './ui/input';
 const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <nav className="sticky w-full bg-inherit px-8 lg:px-24 flex items-center justify-between py-10">
+    <nav className="sticky w-full bg-inherit px-8 lg:px-24 flex items-center justify-between py-10 text-white">
       <div className="hidden md:flex  items-center ">
         <ul className="flex flex-row gap-2 text-white text-sm font-semibold leading-none">
           <li className="flex p-3 items-center justify-center gap-2">About</li>

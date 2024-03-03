@@ -43,6 +43,15 @@ const Hero = () => {
           <div className="absolute bottom-0 right-0 z-50 p-2">
             <Lottie animationData={starsAnimation} /> 
           </div>
+          <div className='absolute p-2'>
+          <Image 
+            src="/vector.svg" 
+            alt="Picture" 
+            width={1350} 
+            height={600}  
+            className='z-20'
+          />
+          </div>
         </div>
       </div>
 
