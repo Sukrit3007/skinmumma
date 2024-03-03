@@ -1,9 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
 import { Button } from './ui/button';
-import { Playfair_Display } from "next/font/google";
-
-const font = Playfair_Display({ subsets: ["latin"] });
 
 const Hero = () => {
   return (

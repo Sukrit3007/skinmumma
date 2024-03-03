@@ -74,15 +74,3 @@
     @apply bg-background text-foreground;
   }
 }
-
-@font-face {
-  font-family: 'Playfair Display';
-  font-style: normal;
-  font-weight: 400;
-  src: url('/next/font/google') format('woff2'), /* Adjust the path */
-       url('/path/font/google') format('woff'); /* Adjust the path */
-}
-
-.heroTitle {
-  font-family: 'Playfair Display', serif;
-}
