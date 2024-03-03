@@ -68,13 +68,13 @@ const NavBar = () => {
       
       <div className="hidden md:flex items-center gap-2 ">
       <Dialog>
-        <DialogTrigger className="rounded-full bg-inherit border border-white hover:bg-opacity-75 p-3">
+        <DialogTrigger className="rounded-full bg-inherit border border-white hover:bg-opacity-75 p-4">
           <MagnifyingGlassIcon className='h-4 w-4'/>
         </DialogTrigger>
         <DialogContent>
           <DialogHeader>
             <DialogDescription>
-              <div className='flex flex-row justify-center items-center gap-2'>
+              <div className='flex flex-row justify-center items-center gap-2 '>
               <MagnifyingGlassIcon className='h-6 w-6'/>
                 <Input className='rounded-3xl bg-white' placeholder='search here' />
               </div>
@@ -83,25 +83,20 @@ const NavBar = () => {
         </DialogContent>
       </Dialog>
 
-        <Button className="rounded-full bg-inherit border border-white hover:bg-opacity-75 p-3">
-          <MagnifyingGlassIcon className='h-4 w-4'/>
-        </Button>
-
-
-        <Button className="rounded-full bg-inherit border border-white hover:bg-opacity-75 p-3">
+        <div className="rounded-full bg-inherit border border-white hover:bg-opacity-75 p-4">
           <HeartIcon className='h-4 w-4'/>
-        </Button>
-        <Button className="rounded-full bg-inherit border border-white hover:bg-opacity-75 p-3">
+        </div>
+        <div className="rounded-full bg-inherit border border-white hover:bg-opacity-75 p-4">
           <PersonIcon className='h-4 w-4'/>
-        </Button>
-          <Button className="rounded-full bg-inherit border border-white hover:bg-opacity-75 p-3 flex flex-row gap-2.5">
+        </div>
+          <div className="rounded-full bg-inherit border border-white hover:bg-opacity-75 p-3 flex flex-row gap-2.5">
             <Image
               src="/logo/cart.svg"
               alt="logo"
               width={15}
               height={15}
             /> 2 items
-          </Button>
+          </div>
       </div>
 
       {/* Hamburger menu for smaller screens */}
