@@ -54,7 +54,7 @@ const WhatsNew = () => {
         </h1>
       </div>
 
-      <div className='flex flex-col md:flex-row overflow-x-scroll scrollbar-hide'>      
+      <div className='flex flex-col md:flex-row overflow-hidden md:overflow-x-scroll'>      
             {loopProducts().map((product, index) => (
               <div
                 key={index}

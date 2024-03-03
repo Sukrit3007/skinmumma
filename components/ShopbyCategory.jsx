@@ -79,7 +79,7 @@ const haircareProducts = [
                     <TabsTrigger value="account">Skin Care</TabsTrigger>
                     <TabsTrigger value="password">Hair Care</TabsTrigger>
                 </TabsList>
-                <TabsContent value="account" className='flex flex-col md:flex-row justify-between overflow-x-auto'>
+                <TabsContent value="account" className='flex flex-col md:flex-row justify-between overflow-hidden md:overflow-x-scroll '>
                             {skincareProducts.map((product, index) => (
                                 <div key={index} className="pl-4 md:basis-1/2 lg:basis-1/4 max-w-fit">
                                     <ProductCard

@@ -24,8 +24,8 @@ const ProductCard = ({ imgSrc, title, description, price }) => {
                 <Image
                     src={imgSrc}
                     alt="card-image"
-                    width={280}
-                    height={280}
+                    width={250}
+                    height={250}
                     className='rounded-3xl transition-transform transform scale-100 hover:scale-95'
                 />
             </CardHeader>
